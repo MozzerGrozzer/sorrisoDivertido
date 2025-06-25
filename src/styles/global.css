@@ -1,0 +1,13 @@
+:root{
+    --roxoPrimary:#6f12dc;
+    --pinkPrimary:#f00271;
+    --orangePrimary: #eaa94d;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    border:none;
+    text-decoration: none;
+}
