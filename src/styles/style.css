@@ -9,5 +9,27 @@ header{
 }
 
 header>img{
-    width: 200px;
+    width: 100px;
+}
+
+header>nav{
+    display:flex;
+    gap:20px;
+}
+
+header>a{
+    padding:1% 5%;
+    background-color:white;
+}
+
+main{
+    background-image: url(../imgs/imagensATVs/atividade-em-ação-do-pano-gigante-em-hotel-diferente-ALT.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:6%;
+    width: 100%;
+    height: 100%;
 }
