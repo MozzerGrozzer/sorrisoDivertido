@@ -32,7 +32,6 @@ header>nav{
 header>nav>a{
     text-align: center;
     padding:1% 11%;
-    background-color:white
 }
 
 /* main */
@@ -132,6 +131,13 @@ main{
 
 footer{
     background-color: var(--orangePrimary);
+    display:flex;
+    justify-content: space-between;
+    padding:5%;
+}
+
+.footerSocial>nav>img{
+    width: 20%;
 }
 
 /* buttons */
@@ -215,4 +221,22 @@ footer{
        padding:2% 10%;
         font-size: 1.25em; 
     }
+}
+
+@media (min-width: 1024px){
+    header>nav{
+    display:flex;
+    gap:20px;
+}
+
+    .servicesGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 10%;
+}
+    .galeryGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 13%;
+}
 }
