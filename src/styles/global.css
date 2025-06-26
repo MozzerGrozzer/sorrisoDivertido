@@ -1,5 +1,5 @@
 :root{
-    --roxoPrimary:#6f12dc;
+    --purplePrimary:#6f12dc;
     --pinkPrimary:#f00271;
     --orangePrimary: #eaa94d;
 }
@@ -11,3 +11,4 @@
     border:none;
     text-decoration: none;
 }
+

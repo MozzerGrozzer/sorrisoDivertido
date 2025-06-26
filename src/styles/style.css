@@ -1,5 +1,17 @@
 @import url(./global.css);
 
+body{
+    font-size:16px;
+    line-height: 1.6;
+    font-family: "Nunito", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Chewy", Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
+/* Header */
+
 header{
     display:flex;
     justify-content: space-between;
@@ -17,19 +29,68 @@ header>nav{
     gap:20px;
 }
 
-header>a{
-    padding:1% 5%;
-    background-color:white;
+header>nav>a{
+    text-align: center;
+    padding:1% 11%;
+    background-color:white
+}
+
+/* main */
+
+main>img{
+    width: 100%;
 }
 
 main{
-    background-image: url(../imgs/imagensATVs/atividade-em-ação-do-pano-gigante-em-hotel-diferente-ALT.jpeg);
+    background-image: url(../imgs/imagensATVs/isa-pintando-rosto-de-criança.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding:6%;
     width: 100%;
     height: 100%;
+}
+
+/* onboard */
+
+.onboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--purplePrimary);
+    color:white;
+    padding:5%;
+}
+
+.onboardText{
+    text-align: center;
+}
+
+#buttonOrange{
+    padding:1% 5%;
+    background-color: var(--orangePrimary);
+    color:black;
+    font-size: 1.5em;
+    font-family: "Chewy", sans-serif;
+    margin:20px;
+}
+#buttonPurple{
+    padding:1% 5%;
+    background-color: var(--purplePrimary);
+    color:white;
+    font-size: 1.3em;
+    font-family: "Chewy", sans-serif;
+    margin:20px;
+}
+
+/* QUERRY querry */
+
+@media (min-width:600px){
+    main>img{
+        width: 10%;
+    }
 }
