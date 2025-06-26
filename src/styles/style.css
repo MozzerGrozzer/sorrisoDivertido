@@ -131,8 +131,8 @@ main{
 
 footer{
     background-color: var(--orangePrimary);
-    display:flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding:5%;
 }
 
@@ -163,7 +163,7 @@ footer{
 
 @media (min-width: 325px){
     h1, h2, h3, h4, h5, h6 {
-        font-size:2em;
+        font-size:1.3em;
     }
 
     header>nav{
@@ -191,6 +191,12 @@ footer{
        padding:2% 10%;
         font-size: 1.25em; 
     }
+    footer{
+        display:flex;
+        flex-direction: column;
+        padding:10%;
+    }
+    
 }
 
 @media (min-width:600px){
@@ -221,6 +227,11 @@ footer{
        padding:2% 10%;
         font-size: 1.25em; 
     }
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:5%;
+}
 }
 
 @media (min-width: 1024px){
@@ -239,4 +250,11 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 10px 13%;
 }
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:5%;
+}
+    
+
 }
