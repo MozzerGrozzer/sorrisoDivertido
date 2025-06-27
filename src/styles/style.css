@@ -21,7 +21,7 @@ header{
 }
 
 header>img{
-    width: 10%;
+    width: 9%;
 }
 
 header>nav{
@@ -32,6 +32,9 @@ header>nav{
 header>nav>a{
     text-align: center;
     padding:1% 11%;
+    font-size: 1em;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--purplePrimary);
 }
 
 /* main */
@@ -145,6 +148,12 @@ footer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding:5%;
+}
+
+.footerNav>ul>li>a{
+    font-size: 1em;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--purplePrimary);
 }
 
 .footerSocial>nav>img{
