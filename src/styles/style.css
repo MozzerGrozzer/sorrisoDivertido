@@ -14,14 +14,14 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 2%;
     background-color: var(--orangePrimary);
 }
 
 header>img{
-    width: 100px;
+    width: 10%;
 }
 
 header>nav{
@@ -36,14 +36,16 @@ header>nav>a{
 
 /* main */
 
-main>img{
-    width: 100%;
+#mainLogo{
+    width: 40%;
+    margin:10% 6%;
 }
 
 main{
     background-image: url(../imgs/imagensATVs/isa-pintando-rosto-de-criança.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode:saturation (50%);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -78,6 +80,10 @@ main{
     align-items: center;
     background-color: var(--orangePrimary);
     padding:3%;
+}
+
+.servicesText{
+    text-align: center;
 }
 
 .servicesGrid{
