@@ -14,9 +14,9 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 2%;
+    padding: 2% 5%;
     background-color: var(--orangePrimary);
 }
 
@@ -233,11 +233,11 @@ footer{
     padding: 10px 5% 0px 5%;
 }
     #buttonOrange{
-        padding:2% 10%;
+        padding:2% 5%;
         font-size: 1.5em;
     }
     #buttonPurple{
-       padding:2% 10%;
+       padding:2% 5%;
         font-size: 1.25em; 
     }
 footer{
