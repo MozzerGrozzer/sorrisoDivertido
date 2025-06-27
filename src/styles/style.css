@@ -81,7 +81,7 @@ main{
 .servicesGrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px 10%;
+    place-items: center;
 }
 
 .servicesCard{
@@ -118,7 +118,7 @@ main{
 .galeryGrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px 13% 0px 0px;
+    place-items: center;
 }
 
 .galeryGrid>img{
@@ -179,10 +179,10 @@ footer{
         grid-template-columns: 1fr;
     }
     .galeryGrid{
-    display:grid;
-    grid-template-columns: 1fr;
-    padding: 10px 5% 0px 5%;
-}
+        display:grid;
+        grid-template-columns: 1fr;
+        padding: 10px 5% 0px 5%;
+    }
     #buttonOrange{
         padding:2% 10%;
         font-size: 1.25em;
@@ -243,12 +243,12 @@ footer{
     .servicesGrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px 10%;
+    place-items: center;
 }
     .galeryGrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px 13%;
+    place-items: center;
 }
 footer{
     display:grid;
