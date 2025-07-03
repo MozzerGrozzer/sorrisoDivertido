@@ -16,8 +16,11 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    height: 20%;
     padding: 2% 5%;
     background-color: var(--orangePrimary);
+    z-index: 999;
+    border-bottom: 5px solid var(--purplePrimary);
 }
 
 header>img{
@@ -26,15 +29,20 @@ header>img{
 
 header>nav{
     display:flex;
-    gap:20px;
 }
 
 header>nav>a{
     text-align: center;
-    padding:1% 11%;
-    font-size: 1em;
+    padding:1% 15%;
+    margin: -10px;
+    font-size: 1.1em;
     text-transform: capitalize;
-    border-bottom: 2px solid var(--purplePrimary);
+    border-bottom: 3px solid var(--purplePrimary);
+}
+
+header>nav>a:hover{
+    border-bottom: 5px solid var(--purplePrimary);
+    transition: 0.3s ease-in-out;
 }
 
 /* main */
@@ -108,6 +116,11 @@ main{
     margin: 5% 30%;
     background-color: var(--purplePrimary);
     color:white;
+    box-shadow: 0px 10px 20px rgb(44, 46, 101);
+}
+
+.servicesCard:hover{
+    transform: translateY(-1%);
 }
 
 .servicesCard>img{
@@ -261,6 +274,10 @@ footer{
 
     h1, h2, h3, h4, h5, h6 {
         font-size:2em;
+    }
+    header{
+        position:fixed;
+        width: 100%;
     }
     header>nav{
     display:flex;
