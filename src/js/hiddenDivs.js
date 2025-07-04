@@ -1,5 +1,5 @@
 function showSection(divId) {
-      // List all your div IDs here
+      // update divs when add
       const divs = ['div1', 'div2', 'div3'];
       divs.forEach(id => {
         document.getElementById(id).className = 'hidden';
