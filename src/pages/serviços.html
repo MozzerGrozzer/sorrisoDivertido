@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
+<style>
+    .hidden { display: none; }
+    .visible { display: block; }
+  </style>
 <body>
     <header>
         <img src="../imgs/logoVAR/logoSorrisoDivertidoCompletaPurple.svg" alt="Logo da Sorriso Divertido">
@@ -26,6 +30,21 @@
     <main id="secondMain">
         <h1>Serviços</h1>
     </main>
+    <section class="serviceButtons">
+        <h2>Escolha seu serviço</h2>
+        <div class="buttonGrid">
+            <button onclick="showSection('div1')">Festa infantil</button>
+            <button onclick="showSection('div2')">Confraternização</button>
+            <button onclick="showSection('div3')">Condomínio</button>
+            <button>Escolas</button>
+            <button>Casamentos</button>
+            <button>Hoteis</button>
+        </div>
+    </section>
+    <section id="div1" class="hidden"> <h1>isso tem que aparecer 1</h1></section>
+    <section id="div2" class="hidden"> <h1>isso tem que aparecer 2</h1></section>
+    <section id="div3" class="hidden"> <h1>isso tem que aparecer 3</h1></section>
+     <script src="../js/hiddenDivs.js"></script>
     <footer>
         <aside class="footerLogo">
             <img src="../imgs/logoVAR/logoSorrisoDivertidoCompletaPreto.svg" alt="">
