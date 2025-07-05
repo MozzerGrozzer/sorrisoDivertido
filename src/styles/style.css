@@ -208,6 +208,35 @@ main>h1{
     text-shadow: 0px 0px 3px black;
 }
 
+/* servuce buttons grid */
+
+.serviceButtons{
+    background-color: var(--orangePrimary);
+    display:flex;
+    flex-direction: column;
+    padding:5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceButtons>h2{
+    text-align: center;
+}
+
+.buttonGrid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10%;
+}
+
+.buttonGrid>button{
+    font-size: 1.2em;
+    padding: 1% 10%;
+    text-align: center;
+    width: 180px;
+}
+
 /* services */
 
 .hidden { display: none; } /*do not touch!!!!*/
