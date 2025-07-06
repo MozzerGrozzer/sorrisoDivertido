@@ -47,6 +47,48 @@ header>nav>a:hover{
     transition: 0.3s ease-in-out;
 }
 
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 220px;
+  height: 100%;
+  background: #222;
+  color: #fff;
+  padding-top: 60px;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  z-index: 1000;
+}
+
+.sidebar.visible {
+  transform: translateX(0);
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  padding: 16px;
+}
+
+.sidebar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#toggleSidebar {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
 /* main */
 
 #mainLogo{
@@ -410,6 +452,15 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding:5%;
 }
+ .sidebar,
+  #toggleSidebar {
+    display: none;
+  }
+
+.hidden {
+  display: none;
+}
+
     
 
 }
