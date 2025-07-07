@@ -302,12 +302,64 @@ main>h1{
 
 /* about us */
 
-.sobreNosContent{
+.sobreNos{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--orangePrimary);
+}
+
+.whatAbout{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purplePrimary);
+    color: white;
+    width: 100%;
+    padding:5%;
+}
+
+.listAbout{
+    display:flex;
+    flex-direction: column;
+    padding:5%;
+    width: 100%;
+}
+
+.listAbout>ul{
+    margin: 2% 0px;
+    padding:0px 5%;
+}
+
+.offerList{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purplePrimary);
+    color: white;
+    padding:5%;
+    width: 100%;
+}
+
+.offerList>ul{
+    margin: 2% 0px;
+    padding:0px 5%;
+}
+
+.compromisse{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--pinkPrimary);
+    color: white;
+    width: 100%;
+    padding:5%;
+}
+
+.compromisse>p{
+    width: 50%;
+    text-align: center;
 }
 
 /* buttons */
