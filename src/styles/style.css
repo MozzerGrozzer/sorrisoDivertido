@@ -302,6 +302,14 @@ main>h1{
 
 /* about us */
 
+.sobreNosContent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orangePrimary);
+}
+
 /* buttons */
 
 #buttonOrange{
