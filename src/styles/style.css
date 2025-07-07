@@ -53,8 +53,9 @@ header>nav>a:hover{
   left: 100%;
   width: 220px;
   height: 100%;
-  background: #222;
-  color: #fff;
+  background: var(--purplePrimary);
+  border-left:3px solid var(--orangePrimary);
+  color: white;
   padding-top: 60px;
   transition: transform 0.3s ease;
   transform: translateX(-100%);
@@ -77,6 +78,11 @@ header>nav>a:hover{
 .sidebar nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+.sidebar>nav>ul>li>a{
+    padding:10px;
+    border-bottom: 2px solid black;
 }
 
 #toggleSidebar {
@@ -141,8 +147,13 @@ header>nav>a:hover{
     text-align: center;
 }
 
+.serviceButtons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .servicesGrid{
-    display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
@@ -291,11 +302,14 @@ main>h1{
 }
 
 .visible>img{
-    width: 50%;
+    width: 30%;
 }
 
 .serviceText{
-    width: 50%;
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    padding:5%;
     text-align: center;
     color: white;
 }
