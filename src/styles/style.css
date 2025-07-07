@@ -274,9 +274,9 @@ main>h1{
 
 .buttonGrid>button{
     font-size: 1.2em;
-    padding: 1% 10%;
+    padding: 3% 10%;
     text-align: center;
-    width: 180px;
+    width: 200px;
 }
 
 /* services */
@@ -291,7 +291,7 @@ main>h1{
 }
 
 .visible>img{
-    width: 20%;
+    width: 50%;
 }
 
 .serviceText{
@@ -371,6 +371,7 @@ main>h1{
     font-size: 1.7em;
     font-family: "Chewy", sans-serif;
     margin:20px;
+    cursor:pointer;
 }
 #buttonPurple{
     padding:1% 5%;
@@ -379,6 +380,7 @@ main>h1{
     font-size: 1.5em;
     font-family: "Chewy", sans-serif;
     margin:20px;
+    cursor:pointer;
 }
 
 /* QUERRY querry */
