@@ -54,7 +54,7 @@ header>nav>a:hover{
   width: 220px;
   height: 100%;
   background: var(--purplePrimary);
-  border-left:3px solid var(--orangePrimary);
+  border-right:3px solid var(--orangePrimary);
   color: white;
   padding-top: 60px;
   transition: transform 0.3s ease;
