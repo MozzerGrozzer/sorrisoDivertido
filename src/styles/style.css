@@ -50,7 +50,7 @@ header>nav>a:hover{
 .sidebar {
   position: fixed;
   top: 0;
-  left: 100%;
+  left:0;
   width: 220px;
   height: 100%;
   background: #222;
@@ -87,6 +87,23 @@ header>nav>a:hover{
 
 .hidden {
   display: none;
+}
+
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+/* Show overlay when sidebar is active */
+.overlay.active {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* main */
@@ -391,6 +408,9 @@ main>h1{
     header>nav{
         display:none;
     }
+    header>a{
+        display:none;
+    }
 
     main>img{
         width: 50%;
@@ -411,6 +431,7 @@ main>h1{
         flex-direction: column;
         align-items: center;
         background-color: var(--purplePrimary);
+        padding: 5% 0%;
      }
      .hidden>img{
         width: 50%;
