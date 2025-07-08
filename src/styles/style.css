@@ -407,9 +407,13 @@ main>h1{
     }
     .hidden { 
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
+        background-color: var(--purplePrimary);
+     }
+     .hidden>img{
+        width: 50%;
      }
      .buttonGrid{ display:none;}
     #buttonOrange{
@@ -437,6 +441,9 @@ main>h1{
     header>nav{
         display:none;
     }
+    header>a{
+        display:none;
+    }
     
     main>img{
         width: 50%;
@@ -450,12 +457,7 @@ main>h1{
     grid-template-columns: 2fr;
     padding: 10px 5% 0px 5%;
 }
-    .hidden { 
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-     }
+    
      .buttonGrid{ display:none;}
     #buttonOrange{
         padding:2% 5%;
@@ -486,6 +488,9 @@ footer{
     display:flex;
     gap:20px;
 }
+    header>a{
+            display:flex;
+        }
 
     .servicesGrid{
     display:grid;
