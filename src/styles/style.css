@@ -206,11 +206,17 @@ header>nav>a:hover{
     justify-content: center;
     align-items: center;
     padding:5%;
+    color:white;
+}
+
+.otherService>h3, .otherService>h4{
+    color:white;
+    padding:2% 0px;
 }
 
 .otherServiceGrid{
     display:grid;
-    grid-template-columns: repeat(4, 4fr);
+    grid-template-columns: repeat(4, 1fr);
     gap:2%;
 }
 
@@ -227,7 +233,8 @@ header>nav>a:hover{
 
 .otherServiceCard>img{
     width: 100%;
-    border-radius: 20px;
+    height: 80%;
+    object-fit:cover;
 }
 /* galery */
 
@@ -471,6 +478,9 @@ main>h1{
         grid-template-columns: 1fr;
         padding: 10px 5% 0px 5%;
     }
+    .otherServiceGrid{
+    grid-template-columns: repeat(1, 1fr);
+}
     .hidden { 
         display: flex;
         justify-content: center;
@@ -524,6 +534,10 @@ main>h1{
     grid-template-columns: 2fr;
     padding: 10px 5% 0px 5%;
 }
+
+.otherServiceGrid{
+    grid-template-columns: repeat(2, 1fr);
+}
     
      .buttonGrid{ display:none;}
     #buttonOrange{
@@ -568,6 +582,10 @@ footer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+}
+
+.otherServiceGrid{
+    grid-template-columns: repeat(4, 1fr);
 }
 .hidden { display: none; } /*do not touch!!!!*/
 .visible { 
