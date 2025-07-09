@@ -199,6 +199,36 @@ header>nav>a:hover{
     width: 40%;
 }
 
+.otherService{
+    background-color: var(--purplePrimary);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5%;
+}
+
+.otherServiceGrid{
+    display:grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap:2%;
+}
+
+.otherServiceCard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orangePrimary);
+    border: 3px solid var(--pinkPrimary);
+    padding:5%;
+    width: 100%;
+}
+
+.otherServiceCard>img{
+    width: 100%;
+    border-radius: 20px;
+}
 /* galery */
 
 .galery{
