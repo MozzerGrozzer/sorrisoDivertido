@@ -138,11 +138,25 @@ header>nav>a:hover{
 .onboard{
     display:flex;
     justify-content: center;
+    position: relative;
     align-items: center;
     flex-direction: column;
     background-color: var(--purplePrimary);
     color:white;
-    padding:5%;
+    padding:8%;
+}
+
+#onboardImgElementRight{
+    display:flex;
+    position: absolute;
+    width: 20%;
+    right:10%;
+}
+#onboardImgElementLeft{
+    display:flex;
+    position: absolute;
+    width:20%;
+    left:10%;
 }
 
 .onboardText{
