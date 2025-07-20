@@ -403,6 +403,20 @@ main>h1{
 
 /* about us */
 
+#thirdMain{
+    background-image: url(../imgs/imagensATVs/recreadora-interagindo-com-meninas-sentadas-ALT.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:saturation (50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:6%;
+    width: 100%;
+    height: 100%;
+}
+
 .sobreNos{
     display:flex;
     flex-direction: column;
