@@ -210,7 +210,7 @@ header>nav>a:hover{
 }
 
 .servicesCard>img{
-    width: 40%;
+    width: 30%;
 }
 
 .otherService{
@@ -274,8 +274,9 @@ header>nav>a:hover{
 .galeryGrid>img{
     width: 80%;
     margin:5%;
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
     border-radius: 30% 60% 20% 40%;
+    border: 0px solid var(--orangePrimary);
 }
 
 .galeryGrid>img:hover{
