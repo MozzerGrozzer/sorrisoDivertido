@@ -392,6 +392,15 @@ main>h1{
     padding: 3% 10%;
     text-align: center;
     width: 200px;
+    transition: 0.2s ease-in-out;
+}
+
+.buttonGrid>button:hover{
+    transform:scale(1.1);
+}
+
+.buttonGrid>button:active{
+    transform: scale(1);
 }
 
 /* services */
