@@ -402,7 +402,20 @@ main>h1{
     justify-content: space-between;
     align-items: center;
     padding: 1% 15%;
-    background-color: var(--purplePrimary); 
+    background-color: var(--purplePrimary);
+    transition: 0.3s ease-in-out;
+    animation: dropDown 0.3s linear; 
+}
+
+@keyframes dropDown {
+    0%{
+        transform: translateY(-5%);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 100%;
+    }
 }
 
 .visible>img{
