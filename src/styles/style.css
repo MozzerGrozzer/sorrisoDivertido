@@ -435,6 +435,7 @@ main>h1{
 .serviceText{
     display:flex;
     flex-direction: column;
+    align-items: center;
     width: 40%;
     padding:5%;
     text-align: center;
@@ -585,6 +586,7 @@ main>h1{
     }
     .otherServiceGrid{
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 40%;
 }
 #onboardImgElementRight{
     display:none;
@@ -592,6 +594,18 @@ main>h1{
 
 #onboardImgElementLeft{
     display:none;
+}
+
+#transitionBumpAboutUs{
+    display:none;
+}
+
+.serviceText{
+    width: 80%;
+}
+
+.serviceText>img{
+    width: 40%;
 }
 
     .hidden { 
@@ -620,6 +634,7 @@ main>h1{
         justify-content: center;
         align-items: center;
         padding:10%;
+        width: 100%;
     }
     
 }
@@ -662,6 +677,7 @@ main>h1{
 
 .otherServiceGrid{
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10%;
 }
     
      .buttonGrid{ display:none;}
