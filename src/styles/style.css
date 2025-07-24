@@ -176,6 +176,7 @@ header>nav>a:hover{
 
 .onboardText{
     text-align: center;
+    width: 50%;
 }
 
 /* services */
@@ -585,6 +586,14 @@ main>h1{
     .otherServiceGrid{
     grid-template-columns: repeat(1, 1fr);
 }
+#onboardImgElementRight{
+    display:none;
+}
+
+#onboardImgElementLeft{
+    display:none;
+}
+
     .hidden { 
         display: flex;
         justify-content: center;
@@ -629,6 +638,18 @@ main>h1{
     main>img{
         width: 50%;
     }
+    #onboardImgElementRight{
+    display:flex;
+    position: absolute;
+    width: 25%;
+    right:5%;
+}
+#onboardImgElementLeft{
+    display:flex;
+    position: absolute;
+    width:25%;
+    left:5%;
+}
     .servicesGrid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -676,6 +697,19 @@ footer{
     header>a{
             display:flex;
         }
+        #onboardImgElementRight{
+    display:flex;
+    position: absolute;
+    width: 20%;
+    right:10%;
+}
+#onboardImgElementLeft{
+    display:flex;
+    position: absolute;
+    width:20%;
+    left:10%;
+}
+
 
     .servicesGrid{
     display:grid;
