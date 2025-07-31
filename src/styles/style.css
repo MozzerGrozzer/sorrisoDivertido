@@ -771,3 +771,228 @@ footer{
     
 
 }
+
+/* ------------------------- */
+/* 📱 1. Celular pequeno (320px–374px) */
+/* ------------------------- */
+@media (max-width: 374px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  .servicesCard {
+    width: 90%;
+    padding: 8%;
+    margin: 5% auto;
+  }
+
+  .galeryGrid,
+  .servicesGrid,
+  .otherServiceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ------------------------- */
+/* 📱 2. Celular médio (375px–599px) */
+/* ------------------------- */
+@media (min-width: 375px) and (max-width: 599px) {
+  h1, h2, h3 {
+    font-size: 1.3em;
+  }
+
+  .servicesCard {
+    width: 85%;
+    padding: 10%;
+  }
+
+  .serviceText {
+    width: 90%;
+  }
+
+  .galeryGrid,
+  .servicesGrid,
+  .otherServiceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* ------------------------- */
+/* 🧻 3. Tablet (600px–1023px) */
+/* ------------------------- */
+@media (min-width: 600px) and (max-width: 1023px) {
+  h1, h2, h3 {
+    font-size: 1.5em;
+  }
+
+  header > nav {
+    display: none;
+  }
+
+  header > a {
+    display: none;
+  }
+
+  main > img {
+    width: 50%;
+  }
+
+  #onboardImgElementRight {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    right: 5%;
+  }
+
+  #onboardImgElementLeft {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    left: 5%;
+  }
+
+  .servicesGrid,
+  .galeryGrid,
+  .otherServiceGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .servicesCard {
+    width: 80%;
+  }
+
+  .buttonGrid {
+    display: none;
+  }
+
+  #buttonOrange,
+  #buttonPurple {
+    padding: 2% 5%;
+    font-size: 1.25em;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 5%;
+  }
+}
+
+/* ------------------------- */
+/* 💻 4. Desktop (1024px–1439px) */
+/* ------------------------- */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  h1, h2, h3 {
+    font-size: 1.8em;
+  }
+
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header > nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  header > a {
+    display: flex;
+  }
+
+  #onboardImgElementRight {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    right: 10%;
+  }
+
+  #onboardImgElementLeft {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    left: 10%;
+  }
+
+  .servicesGrid,
+  .galeryGrid,
+  .otherServiceGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  .servicesCard {
+    width: 70%;
+  }
+
+  .otherServiceGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 10%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5%;
+    width: 100%;
+  }
+
+  .sidebar,
+  #toggleSidebar {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .visible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* ------------------------- */
+/* 🖥️ 5. Telas grandes (1440px+) */
+/* ------------------------- */
+@media (min-width: 1440px) {
+  h1, h2, h3 {
+    font-size: 2em;
+  }
+
+  .servicesGrid,
+  .galeryGrid,
+  .otherServiceGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .servicesCard {
+    width: 60%;
+  }
+
+  .footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
