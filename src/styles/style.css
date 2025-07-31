@@ -63,10 +63,10 @@ input#hamburger {
    position: absolute;
    height: 6px;
    width: 100%;
-   background: #000;
+   background: white;
    transition: 0.5s;
 }
-/* steps of 12 are optional, could also be 10, 13 etc */
+
 .line:nth-child(1) { top: 12px; }
 .line:nth-child(2) { top: 24px; }
 .line:nth-child(3) { top: 36px; }
@@ -582,6 +582,7 @@ main>h1{
         font-size:1.3em;
     }
 
+
     header>nav{
         display:none;
     }
@@ -802,6 +803,14 @@ footer{
     font-size: 1.2em;
   }
 
+  header{
+    position: fixed;
+    right:0;
+    top:-5%;
+    background: none;
+    border:none;
+}
+
   .servicesCard {
     width: 90%;
     padding: 8%;
@@ -841,6 +850,14 @@ footer{
     font-size: 1.3em;
   }
 
+  header{
+    position: fixed;
+    right:0;
+    top:-5%;
+    background: none;
+    border:none;
+}
+
   .servicesCard {
     width: 85%;
     padding: 10%;
@@ -869,6 +886,14 @@ footer{
   h1, h2, h3 {
     font-size: 1.5em;
   }
+
+  header{
+    position: fixed;
+    right:0;
+    top:-5%;
+    background: none;
+    border:none;
+}
 
   header > nav {
     display: none;
