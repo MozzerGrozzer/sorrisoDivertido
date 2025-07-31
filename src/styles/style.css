@@ -47,6 +47,30 @@ header>nav>a:hover{
     transition: 0.3s ease-in-out;
 }
 
+label.hamburger {
+   display: block;
+   width: 40px;
+   height: 60px;
+   position: relative;
+   cursor: pointer;
+}
+
+input#hamburger {
+  display:none
+}
+
+.line {
+   position: absolute;
+   height: 6px;
+   width: 100%;
+   background: #000;
+   transition: 0.5s;
+}
+/* steps of 12 are optional, could also be 10, 13 etc */
+.line:nth-child(1) { top: 12px; }
+.line:nth-child(2) { top: 24px; }
+.line:nth-child(3) { top: 36px; }
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -83,12 +107,6 @@ header>nav>a:hover{
 .sidebar>nav>ul>li>a{
     padding:10px;
     border-bottom: 2px solid black;
-}
-
-#toggleSidebar {
-  margin: 20px;
-  padding: 10px 20px;
-  font-size: 18px;
 }
 
 .hidden {
@@ -1002,7 +1020,7 @@ footer{
   }
 
   .servicesCard {
-    width: 60%;
+    width: 80%;
   }
 
   .footer {
