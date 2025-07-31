@@ -564,6 +564,16 @@ main>h1{
         font-size:1.3em;
     }
 
+    header>nav{
+        display:none;
+    }
+    header>a{
+        display:none;
+    }
+
+    main>img{
+        width: 50%;
+    }
 
     .servicesGrid{
         display: grid;
@@ -773,7 +783,6 @@ footer{
   h1, h2, h3 {
     font-size: 1.2em;
   }
-  
 
   .servicesCard {
     width: 90%;
