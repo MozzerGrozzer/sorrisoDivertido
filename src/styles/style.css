@@ -263,6 +263,7 @@ input#hamburger {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding:5%;
     color:white;
 }
