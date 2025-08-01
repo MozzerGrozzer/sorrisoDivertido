@@ -6,6 +6,8 @@ body{
     font-family: "Nunito", sans-serif;
 }
 
+ul, li, ol {list-style:none;}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Chewy", Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
@@ -292,8 +294,6 @@ input#hamburger {
 
 .otherServiceCard>img{
     width: 100%;
-    height: 80%;
-    object-fit:cover;
 }
 /* galery */
 
@@ -347,7 +347,11 @@ footer{
 }
 
 .footerSocial>nav>img{
-    width: 30%;
+    width: 45%;
+    background-color: var(--pinkPrimary);
+    padding:7%;
+    border-radius: 20%;
+    border:none;
 }
 
 /* Page services */
