@@ -346,7 +346,7 @@ footer{
     border-bottom: 2px solid var(--purplePrimary);
 }
 
-.footerSocial>nav>img{
+.footerSocial>nav>a>img{
     width: 45%;
     background-color: var(--pinkPrimary);
     padding:7%;
