@@ -518,6 +518,7 @@ main>h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .listAbout>ul{
@@ -654,6 +655,12 @@ main>h1{
     width: 70%;
 }
 
+.compromisse{
+  margin-top: 10%;
+      width: 100%; 
+      padding:0%;
+    }
+
     #buttonOrange{
         padding:2% 10%;
         font-size: 1.25em;
@@ -723,6 +730,11 @@ main>h1{
     text-align: center;
     width: 50%;
 }
+
+    .compromisse{
+      width: 100%; 
+      padding:0%;
+    }
 
     #buttonOrange{
         padding:2% 5%;
@@ -806,6 +818,12 @@ footer{
     text-align: center;
     width: 50%;
 }
+
+.compromisse{
+  margin-top: 0%;
+      width: 40%; 
+      padding:5%;
+    }
 
 
 footer{
