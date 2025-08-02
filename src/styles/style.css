@@ -340,6 +340,8 @@ footer{
     padding:5%;
 }
 
+footer>img{width: 40%;}
+
 .footerNav>ul>li>a{
     font-size: 1em;
     text-transform: capitalize;
