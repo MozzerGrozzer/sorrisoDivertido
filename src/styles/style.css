@@ -586,8 +586,6 @@ main>h1{
     h1, h2, h3, h4, h5, h6 {
         font-size:1.3em;
     }
-
-
     header>nav{
         display:none;
     }
@@ -644,6 +642,18 @@ main>h1{
         width: 50%;
      }
      .buttonGrid{ display:none;}
+
+     .offerList{
+      flex-direction: column;
+     }
+     .whatAbout{
+      padding:7% 5%;
+     }
+     .whatAbout>p{
+    text-align: center;
+    width: 70%;
+}
+
     #buttonOrange{
         padding:2% 10%;
         font-size: 1.25em;
@@ -705,6 +715,15 @@ main>h1{
 }
     
      .buttonGrid{ display:none;}
+
+     .whatAbout{
+      padding:5%;
+     }
+     .whatAbout>p{
+    text-align: center;
+    width: 50%;
+}
+
     #buttonOrange{
         padding:2% 5%;
         font-size: 1.5em;
@@ -777,6 +796,18 @@ footer{
     align-items: center;
     gap: 10%;
 }
+
+.offerList{flex-direction: row;}
+
+.whatAbout{
+      padding:5%;
+     }
+     .whatAbout>p{
+    text-align: center;
+    width: 50%;
+}
+
+
 footer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
