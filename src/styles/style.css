@@ -1106,9 +1106,12 @@ footer{
   }
 
   .servicesGrid,
-  .galeryGrid,
-  .otherServiceGrid {
-    grid-template-columns: repeat(4, 1fr);
+  .galeryGrid,{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .otherServiceGrid{
+    grid-template-columns: repeat(4,1fr);
   }
 
   .servicesCard {
