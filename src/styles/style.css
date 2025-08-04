@@ -1106,7 +1106,7 @@ footer{
   }
 
   .servicesGrid,
-  .galeryGrid,{
+  .galeryGrid{
     grid-template-columns: repeat(3, 1fr);
   }
 
