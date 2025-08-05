@@ -641,7 +641,7 @@ main>h1{
 }
 
 .serviceText>img{
-    width: 40%;
+    width: 30%;
 }
 
     .hidden { 
@@ -653,8 +653,12 @@ main>h1{
         padding: 5% 0%;
      }
      .hidden>img{
-        width: 50%;
+        width:50%;
      }
+     #div1>img, #div2>img,#div3>img,#div4>img,#div5>img,#div6>img{
+      display:none;
+     }
+
      .buttonGrid{ display:none;}
 
      .visible{flex-direction: column;}
@@ -745,6 +749,14 @@ main>h1{
     text-align: center;
     width: 50%;
 }
+
+.hidden>img{
+        width:30%;
+     }
+     #div1>img, #div2>img,#div3>img,#div4>img,#div5>img,#div6>img{
+      display:block;
+      width: 50%;
+     }
 
     .compromisse{
       width: 100%; 
