@@ -815,7 +815,8 @@ footer{
 .visible { 
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    flex-direction: row; 
 }
 .buttonGrid{
     display:grid;
