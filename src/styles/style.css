@@ -306,6 +306,10 @@ input#hamburger {
 .otherServiceCard>img{
     width: 100%;
 }
+
+.otherServiceCard>h4{
+  text-align: center;
+}
 /* galery */
 
 .galery{
