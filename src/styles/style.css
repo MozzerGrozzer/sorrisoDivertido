@@ -657,6 +657,8 @@ main>h1{
      }
      .buttonGrid{ display:none;}
 
+     .visible{flex-direction: column;}
+
      .offerList{
       flex-direction: column;
      }
