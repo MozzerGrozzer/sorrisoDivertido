@@ -526,6 +526,7 @@ main>h1{
     display:flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
     background-color: var(--purplePrimary);
     color: white;
     width: 100%;
@@ -592,6 +593,11 @@ main>h1{
 .compromisse>p{
     width: 50%;
     text-align: center;
+}
+
+.compromisse>img{
+  width: 30%;
+  padding:2%;
 }
 
 /* buttons */
