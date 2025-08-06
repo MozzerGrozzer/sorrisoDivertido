@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Chewy", Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
 
+:focus-visible{
+    outline: 5px solid var(--pinkPrimary);
+    outline-offset: 2px;
+}
+
 /* Header */
 
 header{
@@ -309,6 +314,15 @@ input#hamburger {
 
 .otherServiceCard>h4{
   text-align: center;
+  font-size: 1.5em;
+}
+
+.otherServiceMisc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:20%;
 }
 /* galery */
 
