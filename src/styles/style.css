@@ -131,7 +131,7 @@ input#hamburger {
   transition: opacity 0.3s;
 }
 
-/* Show overlay when sidebar is active */
+/* overlay ativo */
 .overlay.active {
   opacity: 1;
   pointer-events: auto;
@@ -686,7 +686,7 @@ main>h1{
      .hidden>img{
         width:50%;
      }
-     #div1>img, #div2>img,#div3>img,#div4>img,#div5>img,#div6>img{
+     .serviceText>img{
       display:none;
      }
 

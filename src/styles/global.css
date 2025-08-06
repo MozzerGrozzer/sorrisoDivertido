@@ -1,7 +1,7 @@
 :root{
     --purplePrimary:#6f12dc;
     --pinkPrimary:#f00271;
-    --orangePrimary: #eaa94d;
+    --orangePrimary: white; /*#eaa94d*/
 }
 
 *{
