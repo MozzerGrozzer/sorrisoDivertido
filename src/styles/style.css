@@ -535,14 +535,15 @@ main>h1{
 }
 
 .listAbout>img{
-  width: 70%;
-  padding: 5%;
+  width: 100%;
+  padding: 2% 5%;
+  border-radius: 50% 30% 60% 40%;
 }
 
 .listAboutText{
     display:flex;
     flex-direction: column;
-    padding:5%;
+    padding:2%;
     width: 100%;
 }
 
@@ -777,6 +778,10 @@ main>h1{
        padding:2% 5%;
         font-size: 1.25em; 
     }
+    #transitionBumpAboutUs{
+    display:flex;
+}
+
 footer{
     display:grid;
     grid-template-columns: 1fr 1fr;
