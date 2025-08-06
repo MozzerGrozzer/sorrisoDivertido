@@ -533,7 +533,8 @@ main>h1{
 }
 
 .whatAbout>img{
-  width: 30%;
+  width: 50%;
+  padding:2% 0%;
 }
 
 .whatAbout>p{
@@ -549,16 +550,15 @@ main>h1{
 }
 
 .listAbout>img{
-  width: 100%;
-  padding: 2% 5%;
+  width:45%;
+  padding: 2% 3%;
   border-radius: 50% 30% 60% 40%;
 }
 
 .listAboutText{
     display:flex;
     flex-direction: column;
-    padding:2%;
-    width: 100%;
+    width: 40%;
 }
 
 .listAboutText>p{
@@ -665,6 +665,10 @@ main>h1{
     width: 30%;
 }
 
+.otherServiceMisc{
+  flex-direction: column;
+}
+
     .hidden { 
         display: flex;
         justify-content: center;
@@ -700,7 +704,7 @@ main>h1{
 }
 
 .listAbout>img{
-  width: 85%;
+  width: 50%;
 }
 
 .compromisse{
@@ -791,6 +795,10 @@ main>h1{
       padding:0%;
     }
 
+    .otherServiceMisc{
+      flex-direction: row;
+    }
+
     #buttonOrange{
         padding:2% 5%;
         font-size: 1.5em;
@@ -840,6 +848,9 @@ footer{
     left:10%;
 }
 
+.listAbout>img{
+  width: 45%;
+}
 
     .servicesGrid{
     display:grid;
@@ -883,9 +894,7 @@ footer{
   flex-direction: row;
 }
 
-.listAbout>img{
-  width: 100%;
-}
+
 
 
 .compromisse{
