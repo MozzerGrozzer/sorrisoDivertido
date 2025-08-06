@@ -681,8 +681,15 @@ main>h1{
     width: 70%;
 }
 
+.listAbout{
+  flex-direction: column;
+}
+
+.listAbout>img{
+  width: 85%;
+}
+
 .compromisse{
-  margin-top: 10%;
       width: 100%; 
       padding:0%;
     }
@@ -857,6 +864,15 @@ footer{
     text-align: center;
     width: 50%;
 }
+
+.listAbout{
+  flex-direction: row;
+}
+
+.listAbout>img{
+  width: 100%;
+}
+
 
 .compromisse{
   margin-top: 0%;
