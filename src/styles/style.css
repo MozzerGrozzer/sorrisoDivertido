@@ -518,19 +518,35 @@ main>h1{
     padding:5%;
 }
 
+.whatAbout>img{
+  width: 30%;
+}
+
 .whatAbout>p{
     text-align: center;
     width: 50%;
 }
 
 .listAbout{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orangePrimary);
+}
+
+.listAbout>img{
+  width: 70%;
+  padding: 5%;
+}
+
+.listAboutText{
     display:flex;
     flex-direction: column;
     padding:5%;
     width: 100%;
 }
 
-.listAbout>p{
+.listAboutText>p{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -538,7 +554,7 @@ main>h1{
     text-align: center;
 }
 
-.listAbout>ul{
+.listAboutText>ul{
     margin: 2% 0px;
     padding:0px 5%;
     display:flex;
@@ -547,29 +563,15 @@ main>h1{
     align-items: center;
 }
 
-.offerList{
+.compromisse{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: var(--purplePrimary);
     color: white;
     padding:5%;
     width: 100%;
-}
-
-.offerList>ul{
-    margin: 2% 0px;
-    padding:0px 5%;
-}
-
-.compromisse{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--pinkPrimary);
-    color: white;
-    width: 40%;
-    padding:5%;
 }
 
 .compromisse>p{
@@ -853,7 +855,6 @@ footer{
 
 .compromisse{
   margin-top: 0%;
-      width: 40%; 
       padding:5%;
     }
 
