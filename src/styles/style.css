@@ -25,7 +25,7 @@ header{
     align-items: center;
     height: 15%;
     padding: 2% 5%;
-    background-color: var(--orangePrimary);
+    background-color: var(--white);
     z-index: 999;
     border-bottom: 5px solid var(--purplePrimary);
 }
@@ -285,7 +285,7 @@ input#hamburger {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--orangePrimary);
+    background-color: var(--white);
     padding:6%;
     position: relative;
 }
@@ -314,18 +314,29 @@ input#hamburger {
     place-items: center;
 }
 
+.servicesCard:nth-child(1), .servicesCard:nth-child(4){
+  background-color: var(--pinkPrimary);
+}
+.servicesCard:nth-child(2), .servicesCard:nth-child(5){
+  background-color: var(--purplePrimary);
+}
+.servicesCard:nth-child(3), .servicesCard:nth-child(6){
+  background-color: var(--orangePrimary);
+  border: 2px solid var(--pinkPrimary);
+}
+/* why why why why why why why why */
 .servicesCard{
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 2px solid var(--pinkPrimary);
+    /* border: 2px solid var(--pinkPrimary); */
+    background-color: var(--purplePrimary);
     border-radius: 40px;
     padding:10%;
     width: 70%;
     margin: 5% 30%;
-    background-color: var(--purplePrimary);
     color:white;
     box-shadow: 0px 10px 20px rgb(44, 46, 101);
 }
@@ -394,7 +405,7 @@ input#hamburger {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--pinkPrimary);
+    background-color: var(--purplePrimary);
 }
 
 .galery>h2{
@@ -425,7 +436,7 @@ input#hamburger {
 /* footer */
 
 footer{
-    background-color: var(--orangePrimary);
+    background-color: var(--white);
     border-top: 5px solid var(--purplePrimary);
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -442,7 +453,7 @@ footer>img{width: 40%;}
 
 .footerSocial>nav>a>img{
     width: 45%;
-    background-color: var(--pinkPrimary);
+    background-color: var(--purplePrimary);
     padding:7%;
     border-radius: 20%;
     border:none;
