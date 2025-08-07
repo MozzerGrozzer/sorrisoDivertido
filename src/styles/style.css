@@ -137,6 +137,29 @@ input#hamburger {
   pointer-events: auto;
 }
 
+/* floating chatbot */
+
+.whatsapp-float {
+  position: fixed;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 50px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.whatsapp-float img {
+  width: 70%;
+}
+
 /* main */
 
 #mainFilter{
