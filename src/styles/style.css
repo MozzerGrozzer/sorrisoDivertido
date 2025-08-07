@@ -8,7 +8,7 @@ body{
 
 ul, li, ol {list-style:none;}
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
     font-family: "Chewy", Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
 
@@ -143,15 +143,14 @@ input#hamburger {
   display:flex;
   height:100%;
   width: 100%;
-  background: rgba(234, 169, 77, 30%);
+  background: rgba(234, 169, 77, 40%);
   position: absolute;
+  z-index: 0;
 }
 
 #mainLogo{
-
-  left:0;
-  width: 30%;
-  margin:7% 6%;
+  width: 50%;
+  z-index: 1;
 }
 
 #firstMain{
@@ -161,12 +160,47 @@ input#hamburger {
     background-position: right;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap:15%;
     position: relative;
-    padding:6%;
+    padding:15%;
     width: 100%;
     height: 100%;
+}
+
+.mainOnboard{
+  background-color: var(--purplePrimary);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  width: 40%;
+}
+.mainOnboard>p{
+  color:white;
+  width: 70%;
+  text-align: center;
+}
+
+.newsLetterForm{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsLetterForm>label{
+  font-size:1.7em;
+  color: white;
+}
+
+#email{
+  background-color: var(--white);
+  border: 2px solid var(--pinkPrimary);
+  font-size: 1em;
+  width: 300px;
+  height: 25px;
 }
 
 /* onboard */
