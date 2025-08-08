@@ -265,12 +265,19 @@ input#hamburger {
     position: absolute;
     top:-14%;
 }
-#transitionBumpAboutUs{
+#transitionBumpService{
     width: 100%;
-    height: 5%; 
+    height: 90px; 
     display:flex; 
     position: absolute;
-    top:-4%;
+    top:-27%;
+}
+#transitionBumpAboutUs{
+    width: 100%;
+    height: 90px; 
+    display:flex; 
+    position: absolute;
+    top:-15%;
 }
 
 .onboardText{
@@ -491,13 +498,12 @@ main>h1{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--orangePrimary);
-    color: white;
+    color: color;
     padding:5%;
 }
 
 .serviceButtons{
-    background-color: var(--orangePrimary);
+    background-color: var(--white);
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -541,6 +547,7 @@ main>h1{
     align-items: center;
     padding: 1% 15%;
     background-color: var(--purplePrimary);
+    border-bottom: 5px solid var(--orangePrimary);
     transition: 0.3s ease-in-out;
     animation: dropDown 0.3s linear; 
 }
@@ -621,7 +628,7 @@ main>h1{
   display:flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--orangePrimary);
+  background-color: var(--white);
 }
 
 .listAbout>img{
