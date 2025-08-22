@@ -754,6 +754,12 @@ main>h1{
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 40%;
 }
+#backgroundMainOnboardText{
+  position: absolute;
+  width: 50%;
+  height: 42%;
+  opacity: 50%;
+}
 #onboardImgElementRight{
     display:none;
 }
@@ -874,6 +880,13 @@ main>h1{
     display:grid;
     grid-template-columns: 2fr;
     padding: 10px 5% 0px 5%;
+}
+
+#backgroundMainOnboardText{
+  position: absolute;
+  width: 50%;
+  height: 19%;
+  opacity: 50%;
 }
 
 .otherServiceGrid{
@@ -1116,6 +1129,13 @@ footer{
     top:-5%;
     background: none;
     border:none;
+}
+
+#backgroundMainOnboardText{
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  opacity: 50%;
 }
 
 #trasitionBump{
