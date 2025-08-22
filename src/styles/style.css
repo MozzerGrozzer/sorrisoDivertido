@@ -208,8 +208,23 @@ input#hamburger {
   font-size: 1.6em;
   padding: 7% 10%;
   text-align: center;
-  background-color: var(--purplePrimary);
+  z-index: 1;
 }
+
+#backgroundMainOnboardText{
+  display:flex;
+  position: absolute;
+  background-color: var(--purplePrimary);
+  opacity: 100%;
+  width: 50%;
+  height: 23%;
+  opacity: 50%;
+}
+
+/* this is completly unecesarry changes to an already warped style */
+/* Note to fucking self: the client is always fucking WRONG */
+/* And I'll have to change the media querry of this shit??? */
+/* i'll kill myself */
 
 .newsLetterForm{
   display:flex;
@@ -284,6 +299,7 @@ input#hamburger {
     text-align: center;
     width: 50%;
 }
+
 
 /* services */
 
@@ -904,6 +920,7 @@ main>h1{
     display:flex;
 }
 
+
 footer{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -1051,6 +1068,18 @@ footer{
     display:none;
 }
 
+#trasitionBump{
+  display:none;
+}
+
+#transitionBump{
+  display:none;
+}
+
+#transitionBumpWhite{
+  display:none;
+}
+
 #onboardImgElementLeft{
     display:none;
 }
@@ -1087,6 +1116,26 @@ footer{
     top:-5%;
     background: none;
     border:none;
+}
+
+#trasitionBump{
+  display:none;
+}
+
+#transitionBump{
+  display:none;
+}
+
+#transitionBumpWhite{
+  display:none;
+}
+
+#onboardImgElementLeft{
+    display:none;
+}
+
+#transitionBumpAboutUs{
+    display:none;
 }
 
   .servicesCard {
@@ -1151,6 +1200,26 @@ footer{
     width: 25%;
     left: 5%;
   }
+
+  #trasitionBump{
+  display:none;
+}
+
+#transitionBump{
+  display:none;
+}
+
+#transitionBumpWhite{
+  display:none;
+}
+
+#onboardImgElementLeft{
+    display:none;
+}
+
+#transitionBumpAboutUs{
+    display:none;
+}
 
   .servicesGrid,
   .galeryGrid,
