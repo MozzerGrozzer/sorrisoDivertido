@@ -34,4 +34,4 @@ O site conta com um mascote próprio, o **Jalelé** — um jacaré sorridente qu
 
 ## 🔗 Acesse o site
 
-🌐 [Versão publicada no GitHub Pages](https://mozzergrozzer.github.io/sorrisoDivertido/)
+🌐 [Versão publicada no GitHub Pages](http://sorrisodivertido.com.br/)
