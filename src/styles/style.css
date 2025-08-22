@@ -772,6 +772,10 @@ main>h1{
     display:none;
 }
 
+#transitionBumpService{
+  display: none;
+}
+
 .serviceText{
     width: 80%;
 }
@@ -930,7 +934,7 @@ main>h1{
         font-size: 1.25em; 
     }
     #transitionBumpAboutUs{
-    display:flex;
+    display:none;
 }
 
 
@@ -976,6 +980,10 @@ footer{
     position: absolute;
     width:20%;
     left:10%;
+}
+
+#transitionBumpService{
+  display:flex;
 }
 
 .listAbout>img{
